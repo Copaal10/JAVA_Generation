@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carrito de Compras</title>
+</head>
+<body>
+
+
+
+
+
+
+
+<h1>Productos disponibles</h1>
+
+<!-- Producto A -->
+<p>
+  Producto A - Precio: $<span id="precio-a">20</span>
+  <button onclick="agregarProducto('A', 20)">Agregar al carrito</button>
+</p>
+
+<!-- Producto B -->
+<p>
+  Producto B - Precio: $<span id="precio-b">15</span>
+  <button onclick="agregarProducto('B', 15)">Agregar al carrito</button>
+</p>
+
+<!-- Producto C -->
+<p>
+  Producto C - Precio: $<span id="precio-c">30</span>
+  <button onclick="agregarProducto('C', 30)">Agregar al carrito</button>
+</p>
+
+
+<button onclick="vaciarCarrito()">Vaciar carrito</button>
+
+
+
+
+
+
+<h2>Resumen del carrito</h2>
+Total de ítems: <span id="total-items">0</span><br>
+Total a pagar: $<span id="total-precio">0</span><br><br>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
